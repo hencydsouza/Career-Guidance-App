@@ -24,7 +24,7 @@
             android:name=".CareerTips"
             android:exported="false" />
         <activity
-            android:name=".CareeerVideo"
+            android:name=".CareerVideo"
             android:exported="false" />
         <activity
             android:name=".activities.AoiDetail"
@@ -49,9 +49,6 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CareerVideo"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
