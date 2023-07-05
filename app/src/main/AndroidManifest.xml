@@ -15,6 +15,9 @@
         android:theme="@style/Theme.CareerApp"
         tools:targetApi="31">
         <activity
+            android:name=".ExamDetail"
+            android:exported="false" />
+        <activity
             android:name=".DetailActivity"
             android:exported="false" />
         <activity

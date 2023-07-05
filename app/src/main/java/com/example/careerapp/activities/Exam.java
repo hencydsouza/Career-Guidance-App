@@ -58,9 +58,10 @@ public class Exam extends AppCompatActivity {
                         examModel exam = new examModel();
                         exam.setExamName(jsonObject.getString("examName"));
                         exam.setExamEligibility(jsonObject.getString("examEligibility"));
-                        exam.setExamDate("Apply before: "+jsonObject.getString("examDate"));
+                        exam.setExamDate(jsonObject.getString("examDate"));
                         exam.setExamWebsite(jsonObject.getString("examWebsite"));
                         exam.setExamLogo(jsonObject.getString("examLogo"));
+                        exam.setExamDescription(jsonObject.getString("examDescription"));
                         lstExamModel.add(exam);
                     } catch (JSONException e) {
                         throw new RuntimeException(e);
