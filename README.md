@@ -13,4 +13,4 @@ Here're some of the project's best features:
 *   Find the right college
 *   Choose courses
 *   Get info on competitive exams
-*   Tips and guidance for better career
+*   Tips and guidance for a better career
